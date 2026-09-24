@@ -11,7 +11,7 @@ CSV_FILE = "history.csv"
 # Thực đơn cố định của nhà hàng Mr. Hào
 menu = {
     "Đồ ăn": {
-        "Pizza Hải Sản": 150000,
+        "Pizza Gà": 150000,
         "Mì Ý Bò Bằm": 95000,
         "Burger Gà": 65000,
         "Salad Trộn": 50000,
@@ -56,7 +56,7 @@ if "admin_logged_in" not in st.session_state:
 page = st.sidebar.radio("📋 Chọn trang hệ thống", ["🍽️ Order", "🔑 Admin"])
 
 if page == "🍽️ Order":
-    st.title("🍽️ Hệ thống Order Nhà Hàng_Dr Bình")
+    st.title("🍽️ Hệ thống Order Nhà Hàng_Dr Hào")
     st.caption("Ghi nhận order nhanh chóng và chính xác theo thời gian thực")
 
     col1, col2 = st.columns([1, 1.3])
